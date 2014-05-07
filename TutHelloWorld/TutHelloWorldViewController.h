@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TutHelloWorldViewController : UIViewController
+@interface TutHelloWorldViewController : UIViewController<UITextFieldDelegate>
 - (IBAction)changeGreeting:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 
